@@ -1,4 +1,4 @@
-FROM python:3.8.5-slim-buster
+FROM python:3.9.0-slim-buster
 
 ARG S6_VERSION
 ENV S6_VERSION=${S6_VERSION:-v2.1.0.0}
